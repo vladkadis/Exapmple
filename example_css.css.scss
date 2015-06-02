@@ -1,0 +1,303 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.block-shema{
+    width: 960px;
+    height: 385px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.fl-lf{
+  float: left;
+}
+.fl-rg{
+  float: right;
+}
+.comp-center{
+  position: relative;
+  right: 25px;
+  top: 85px;
+}
+.pic-ani-one{
+  opacity: 1;
+  width: 3px;
+  height: 87px;
+  background-size: cover;
+  position: relative;
+  bottom: 90px;
+  left: 82px;
+  background: image-url('_line_1.png') 0 -140px repeat-y;
+  -webkit-animation: pic-ani-one 2s linear infinite;
+  -moz-animation:    pic-ani-one 2s linear infinite;
+  -o-animation:      pic-ani-one 2s linear infinite;
+  animation:         pic-ani-one 2s linear infinite;
+}
+@-webkit-keyframes pic-ani-one {
+  0%   { background-position: 0 -140px; }
+  50%  { background-position: 0 -70px; }
+  100% { background-position: 0 0px; }
+}
+@-moz-keyframes pic-ani-one {
+  0%   { background-position: 0 -140px; }
+  50%  { background-position: 0 -70px; }
+  100% { background-position: 0 0px; }
+}
+@-o-keyframes pic-ani-one {
+  0%   { background-position: 0 -140px; }
+  50%  { background-position: 0 -70px; }
+  100% { background-position: 0 0px; }
+}
+@keyframes pic-ani-one {
+  0%   { background-position: 0 -140px; }
+  50%  { background-position: 0 -70px; }
+  100% { background-position: 0 0px; }
+}  
+.pic-ani-six{
+  opacity: 1;
+  bottom: 166px;
+  float: right;
+  height: 67px;
+  position: relative;
+  left: 100px;
+  width: 3px;
+  background: image-url('_line_1.png') 0 -140px repeat-y;
+  -webkit-animation: pic-ani-one 2s linear infinite;
+  -moz-animation:    pic-ani-one 2s linear infinite;
+  -o-animation:      pic-ani-one 2s linear infinite;
+  animation:         pic-ani-one 2s linear infinite;
+}
+@-webkit-keyframes pic-ani-one {
+  0%   { background-position: 0 -140px; }
+  50%  { background-position: 0 -70px; }
+  100% { background-position: 0 0px; }
+}
+@-moz-keyframes pic-ani-one {
+  0%   { background-position: 0 -140px; }
+  50%  { background-position: 0 -70px; }
+  100% { background-position: 0 0px; }
+}
+@-o-keyframes pic-ani-one {
+  0%   { background-position: 0 -140px; }
+  50%  { background-position: 0 -70px; }
+  100% { background-position: 0 0px; }
+}
+@keyframes pic-ani-one {
+  0%   { background-position: 0 -140px; }
+  50%  { background-position: 0 -70px; }
+  100% { background-position: 0 0px; }
+}  
+.pic-ani-two{
+  opacity: 1;
+  height: 3px;
+  left: 225px;
+  position: absolute;
+  top: 123px;
+  transform: rotate(27deg);
+  width: 167px;
+  background: image-url('_line_2.png') -200px 0 repeat-x;
+  -webkit-animation: pic-ani-two 2s linear infinite;
+  -moz-animation:    pic-ani-two 2s linear infinite;
+  -o-animation:      pic-ani-two 2s linear infinite;
+  animation:         pic-ani-two 2s linear infinite;
+}
+@-webkit-keyframes pic-ani-two {
+  0%   { background-position: -200px 0; }
+  50%  { background-position: -100px 0; }
+  100% { background-position: 0 0px ;}
+}
+@-moz-keyframes pic-ani-two {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}
+@-o-keyframes pic-ani-two {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}
+@keyframes pic-ani-two {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}  
+.pic-ani-three{
+  opacity: 1;
+  height: 3px;
+  position: absolute;
+  right: 210px;
+  top: 114px;
+  transform: rotate(144deg);
+  width: 184px;
+  background: image-url('_line_2.png') -200px 0 repeat-x;
+  -webkit-animation: pic-ani-three 2s linear infinite;
+  -moz-animation:    pic-ani-three 2s linear infinite;
+  -o-animation:      pic-ani-three 2s linear infinite;
+  animation:         pic-ani-three 2s linear infinite;
+}
+@-webkit-keyframes pic-ani-three {
+  0%   { background-position: -200px 0; }
+  50%  { background-position: -100px 0; }
+  100% { background-position: 0 0px ;}
+}
+@-moz-keyframes pic-ani-three {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}
+@-o-keyframes pic-ani-three {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}
+@keyframes pic-ani-three {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}  
+.pic-ani-four{
+  opacity: 1;
+  bottom: 130px;
+  height: 3px;
+  position: absolute;
+  right: 200px;
+  transform: rotate(207deg);
+  width: 184px;
+  background: image-url('_line_2.png') -200px 0 repeat-x;
+  -webkit-animation: pic-ani-four 2s linear infinite;
+  -moz-animation:    pic-ani-four 2s linear infinite;
+  -o-animation:      pic-ani-four 2s linear infinite;
+  animation:         pic-ani-four 2s linear infinite;
+}
+@-webkit-keyframes pic-ani-four {
+  50%  { background-position: -100px 0; }
+  100% { background-position: 0 0px ;}
+}
+@-moz-keyframes pic-ani-four {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}
+@-o-keyframes pic-ani-four {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}
+@keyframes pic-ani-four {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px ;}
+}  
+.pic-ani-five{
+  opacity: 1;
+  bottom: 135px;
+  height: 3px;
+  left: 204px;
+  position: absolute;
+  transform: rotate(-27deg);
+  width: 184px;
+  background: image-url('_line_2.png') -200px 0 repeat-x;
+  -webkit-animation: pic-ani-five 2s linear infinite;
+  -moz-animation:    pic-ani-five 2s linear infinite;
+  -o-animation:      pic-ani-five 2s linear infinite;
+  animation:         pic-ani-five 2s linear infinite;
+}
+@-webkit-keyframes pic-ani-five {
+  0%   { background-position: -200px 0; }
+  50%  { background-position: -100px 0; }
+  100% { background-position: 0 0px }
+}
+@-moz-keyframes pic-ani-five {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px }
+}
+@-o-keyframes pic-ani-five {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px }
+}
+@keyframes pic-ani-five {
+  0%   { background-position: -200px 0px; }
+  50%  { background-position: -100px 0px; }
+  100% { background-position: 0 0px }
+}  
+.animation{
+  visibility: visible !important;
+}
+.animation{
+  -webkit-animation: animation 2s;
+  -moz-animation: animation 2s;
+  -o-animation: animation 2s;
+  animation: animation 2s;
+  animation-fill-mode: both;
+}
+.animation>h4{
+  -webkit-animation: animation 2s;
+  -moz-animation: animation 2s;
+  -o-animation: animation 2s;
+  animation: animation 2s;
+  animation-fill-mode: both;
+} 
+.animation>p{
+  -webkit-animation: animation 2s;
+  -moz-animation: animation 2s;
+  -o-animation: animation 2s;
+  animation: animation 2s;
+  animation-fill-mode: both;
+}  
+@-webkit-keyframes animation{
+  0% { opacity: 0; -webkit-transform: scale(0.8); }
+  100% { opacity: 1; -webkit-transform: scale(1); }
+}
+@-moz-keyframes animation{
+  0% { opacity: 0; -moz-transform: scale(0.8); }
+  100% { opacity: 1; -moz-transform: scale(1); }
+}
+@-o-keyframes animation{
+  0% { opacity: 0; -o-transform: scale(0.8); }
+  100% { opacity: 1; -o-transform: scale(1); }
+}
+@keyframes animation{
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animation-two{
+  -webkit-animation: animation-two 2s;
+  -moz-animation: animation-two 2s;
+  -o-animation: animation-two 2s;
+  animation: animation-two 2s;
+  animation-fill-mode: both;
+  // visibility: visible;
+}
+.animation-two>h4{
+  -webkit-animation: animation-two 2s;
+  -moz-animation: animation-two 2s;
+  -o-animation: animation-two 2s;
+  animation: animation-two 2s;
+  animation-fill-mode: both;
+}
+.animation-two>p{
+  -webkit-animation: animation-two 2s;
+  -moz-animation: animation-two 2s;
+  -o-animation: animation-two 2s;
+  animation: animation-two 2s;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes animation-two{
+  0% { opacity: 1; -webkit-transform: scale(1); visibility: visible; }
+  100% { opacity: 0; -webkit-transform: scale(0.9); visibility: hidden; }
+
+}
+@-moz-keyframes animation-two{
+  0% { opacity: 1; -moz-transform: scale(1); visibility: visible;}
+  100% { opacity: 0; -moz-transform: scale(0.9); visibility: hidden;}
+}
+@-o-keyframes animation-two{
+  0% { opacity: 1; -o-transform: scale(1); visibility: visible; }
+  100% { opacity: 0; -o-transform: scale(0.9); visibility: hidden; }
+}
+@keyframes animation-two{
+  0% { opacity: 1; transform: scale(1); visibility: visible; }
+  100% { opacity: 0; transform: scale(0.9); visibility: hidden; }
+}
